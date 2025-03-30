@@ -1,0 +1,8 @@
+User-agent: *  
+Disallow: /admin  
+Disallow: /feed 
+Disallow: /checkout  
+Disallow: /Support@spactour.in  
+Allow: /
+
+Sitemap: https://spactour.in/sitemap.xml
