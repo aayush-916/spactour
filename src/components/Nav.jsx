@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {Link} from 'react-router-dom'
 import '../App.css'
+import PrivacyPolicy from './PrivacyPolicy'
 
 function Nav() {
   const [toggle, settoggle] = useState(false)
@@ -25,7 +26,7 @@ function Nav() {
           <li><Link to='/' onClick={bodyclick}>Home</Link></li>
           <li><Link to='/about' onClick={bodyclick}>About Us</Link></li>
           <li><Link to='/service' onClick={bodyclick}>Services</Link></li>
-          <li><Link to='/portfolio' onClick={bodyclick}>Portfolio</Link></li>
+          <li><Link to='/PrivacyPolicy' onClick={bodyclick}>PrivacyPolicy</Link></li>
           <li><Link to='/contact' onClick={bodyclick}>Contact Us</Link></li>
         </ul>
         
